@@ -21,7 +21,7 @@ public class   EmpSearchServlet extends  HttpServlet{
 			 String driver=null,url=null,user=null,pwd=null;
 			 ServletConfig cg=null;
 			 ServletContext sc=null;
-			 RequestDispatcher rd=null,rd1=null,rd2=null;
+			 RequestDispatcher rd=null,rd1=null,rd2=null;///modigy in project....
 			 try{
 			//general settings
 			pw=res.getWriter();

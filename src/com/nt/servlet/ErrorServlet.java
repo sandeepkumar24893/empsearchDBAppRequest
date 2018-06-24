@@ -13,7 +13,7 @@ public class ErrorServlet extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		 PrintWriter pw=null;
-		//general settings
+		//general settings //commit this project
 		 pw=res.getWriter();
 		 res.setContentType("text/html");
 		 
